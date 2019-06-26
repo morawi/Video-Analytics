@@ -1,0 +1,33 @@
+Sample runs:
+From the terminal, 
+python rm_silence_vid.py --video_in Trump.mp4 --video_out TrumpM30.mp4 --noise -30
+python rm_silence_vid.py --video_in Trump.mp4 --video_out TrumpM10.mp4 --noise -10
+
+Up and running, and the attached folder includes sample outputs.
+
+
+python --version
+Python 3.6.8 :: Anaconda custom (64-bit)
+
+Other dependencies: 
+tqdm which is used for the progress bar
+pip install tqdm
+
+ffmpeg -version
+ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+built with gcc 7.2.0 (crosstool-NG fa8859cb)
+configuration: --prefix=/home/malrawi/anaconda3 --disable-doc --enable-shared --extra-cflags='-fPIC -I/home/malrawi/anaconda3/include' --extra-cxxflags='=-fPIC' --extra-libs='-L/home/malrawi/anaconda3/lib -lz' --enable-pic --disable-static --disable-gpl --disable-nonfree --disable-openssl --enable-libvpx --cc=/opt/conda/conda-bld/ffmpeg_1530807717919/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --cxx=/opt/conda/conda-bld/ffmpeg_1530807717919/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++ --enable-libopus
+libavutil      55. 78.100 / 55. 78.100
+libavcodec     57.107.100 / 57.107.100
+libavformat    57. 83.100 / 57. 83.100
+libavdevice    57. 10.100 / 57. 10.100
+libavfilter     6.107.100 /  6.107.100
+libswscale      4.  8.100 /  4.  8.100
+libswresample   2.  9.100 /  2.  9.100
+
+
+OS:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.5 LTS
+Release:	16.04
+Codename:	xenial
